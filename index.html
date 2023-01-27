@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="stylos_formulario.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form" class="form">
+            <h1 class="form-titulo">Regístrate</h1>
+    
+    <div  class="form-input myname">
+        <input type="text" id="myname">
+        <label for="myname">Nombre</label>
+        <P class="mensajeerror"></P>
+    </div>
+    <div class="form-input surname">
+        <input type="text" id="surname">
+        <label for="surname">Apellido</label>
+        <P class="mensajeerror"></P>
+    </div>
+    <div class="form-input email">
+        <input type="mail" id="email">
+        <label for="email">Email</label>
+        <P class="mensajeerror"></P>
+    </div>
+    <div class="form-input mobile">
+        <input type="text" id="mobile">
+        <label for="mobile">Celular</label>
+        <P class="mensajeerror"></P>
+    </div>  
+    <div class="form-input password">
+        <input type="password" id="password">
+        <label for="password">Contraseña</label>
+        <P class="mensajeerror"></P>
+        </div>  
+        <div class="form-input repeatpassword">
+            <input type="password" id="repeatpassword">
+            <label for="repeatpassword">Repetir Contraseña</label>
+            <P class="mensajeerror"></P>
+            </div>
+            <div class="form-termsandconnditions termsandconditions">
+            <input type="checkbox"  id="termsandconditions">
+            <label for="termsandconditions"> he leido y acepto los </label>
+            <a href="#">terminos y condiciones</a>
+            </div>
+            <div class="boton-enviar">
+                <input type="submit" value="Enviar">
+            </div>
+            <p class="mensaje correcto"></p>
+        </form>
+    </div>
+    <script src="formulario.js"></script>
+
+    
+</body>
+</html>
